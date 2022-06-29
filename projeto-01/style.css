@@ -54,3 +54,34 @@ display: flex;
 .result .lose{
     color: rgb(185, 5, 5);
 }
+/*Área dos controles*/
+.buttons{
+display: flex;
+justify-content: center;
+}
+.btn{
+    padding: 5px 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+.new-game{
+    background-color: rgba(6, 89, 167, 0.808);
+    color: #fff;
+}
+.attack{
+    background-color: rgb(226, 10, 10);
+    color: #fff;
+}
+.especial-attack{
+    background-color: rgb(248, 164, 7);
+}
+.heal{
+    background-color: rgba(23, 155, 23, 0.986) ;
+    color: #fff;
+}
+.give-up{
+    background-color: #bbb;
+    
+}

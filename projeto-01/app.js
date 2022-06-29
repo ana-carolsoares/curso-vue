@@ -1,8 +1,9 @@
 new Vue({
     el: '#app',
     data: {
-        playerLife:0,
-        monsterLife:100,
+        running: false,
+        playerLife: 0,
+        monsterLife: 100,
     },
     computed:{
         hasResult(){
