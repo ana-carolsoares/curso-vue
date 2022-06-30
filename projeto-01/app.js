@@ -47,6 +47,7 @@ new Vue({
         getRandom(min, max){
             const value = Math.random() * (max - min) + min
             return Math.round(value)
+            
         },
         registerLog(text, cls){
             this.logs.unshift({text, cls})
